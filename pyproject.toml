@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "orchestration"
+version = "0.1.0"
+description = ""
+authors = ["lerela <github@lio.re>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+faust-streaming = "^0.6.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.10b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
